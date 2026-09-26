@@ -1,7 +1,7 @@
 // C++ code
 // Here we define Trig and Echo ports
 const int Trig=7;
-const in Echo=7;
+const int Echo=7;
  
 //Defining distance variable
 float distance=0;
@@ -10,7 +10,7 @@ float distance=0;
 float time=0;
 void setup()
 {  //Wathc the distance in our monitor.
-   Serial.Begin(9600);
+   Serial.begin(9600);
      
 }
  
